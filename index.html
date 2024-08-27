@@ -3,107 +3,141 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mayura Rangarajan's Resume</title>
+    <title>Mayura Rangarajan - Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f5f5f5;
             color: #333;
         }
         .container {
             max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
+            margin: 40px auto;
             background: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
         }
-        h1, h2 {
-            color: #0056b3;
+        h1 {
+            font-family: 'Montserrat', sans-serif;
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 10px;
         }
-        .section {
-            margin-bottom: 20px;
+        h2 {
+            font-family: 'Montserrat', sans-serif;
+            color: #2c3e50;
+            border-bottom: 2px solid #e74c3c;
+            padding-bottom: 5px;
         }
-        .contact-info {
-            display: flex;
-            justify-content: space-between;
+        h3 {
+            font-family: 'Montserrat', sans-serif;
+            color: #2c3e50;
+            margin-top: 20px;
+        }
+        p {
+            margin: 0 0 15px;
+        }
+        .contact-info, .education, .experience, .certifications, .projects {
+            margin-bottom: 30px;
         }
         .contact-info a {
-            color: #0056b3;
+            color: #e74c3c;
             text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        .project-link {
+            color: #e74c3c;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <header>
-            <h1>Mayura Rangarajan</h1>
-            <div class="contact-info">
-                <div>
-                    Newark, NJ<br>
-                    <a href="mailto:mr937@njit.edu">mr937@njit.edu</a><br>
-                    +1 (347) 560-9161
-                </div>
-                <div>
-                    <a href="www.linkedin.com/in/mayura-rangarajan" target="_blank">LinkedIn</a>
-                </div>
-            </div>
-        </header>
-        <section class="section">
+        <h1>Mayura Rangarajan</h1>
+        <div class="contact-info">
+            <p>Newark, NJ | <a href="mailto:mr937@njit.edu">mr937@njit.edu</a> | +1 (347) 560-9161 | <a href="http://linkedin.com/in/mayura-raj-8b835518a">linkedin.com/in/mayura-raj-8b835518a</a></p>
+        </div>
+
+        <div class="professional-summary">
             <h2>Professional Summary</h2>
-            <p>Dynamic and results-oriented professional with over 3 years of hands-on experience in full-stack software development. Proven track record of effectively collaborating with cross-functional teams to gather requirements and define project scopes. Currently pursuing a Master of Science in Computer Science with a stellar 4.0 GPA at the esteemed New Jersey Institute of Technology. Eager to apply front-end development expertise in a challenging, innovative, and collaborative environment.</p>
-        </section>
-        <section class="section">
+            <p>Dynamic and results-oriented professional with over 3 years of hands-on experience in industrial full-stack software development. Demonstrated ability to effectively collaborate with cross-functional teams to gather requirements and define project scopes. Dedicated to staying abreast of emerging technologies and trends, fostering a culture of continuous learning and adaptation. Currently pursuing a Master of Science in Computer Science with a stellar 4.0 GPA at the esteemed New Jersey Institute of Technology. Eager to apply expertise and drive innovation in a challenging development environment.</p>
+        </div>
+
+        <div class="education">
             <h2>Education</h2>
-            <p><strong>Master of Science in Computer Science</strong><br>
-                New Jersey Institute of Technology, Newark, NJ | 4.0 GPA | September 2023 – Present
-            </p>
-            <p><strong>Bachelor of Science in Computer Science</strong><br>
-                National Institute of Engineering (NIE) | 7.76 CGPA | June 2016 – May 2020
-            </p>
-        </section>
-        <section class="section">
+            <ul>
+                <li>
+                    <p><strong>Master of Science in Computer Science</strong><br>
+                    New Jersey Institute of Technology at Newark, NJ | 4.0 GPA<br>
+                    September 2023 – Present</p>
+                </li>
+                <li>
+                    <p><strong>Bachelor of Science in Computer Science</strong><br>
+                    National Institute of Engineering (NIE) | 7.76 CGPA<br>
+                    June 2016 – May 2020</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="areas-of-expertise">
             <h2>Areas of Expertise</h2>
-            <p><strong>Beginner Level:</strong> AWS Services, Machine Learning Algorithms, GOCD, Databricks, Hadoop<br>
-            <strong>Proficient:</strong> AngularJS, Terraform, Java, Python, HTML5, CSS3, JavaScript, jQuery, SASS, JSON, AJAX, Bootstrap
-            </p>
-        </section>
-        <section class="section">
+            <ul>
+                <li>Beginner Level: AWS Services, Machine Learning Algorithms, GOCD, Databricks, Hadoop.</li>
+                <li>Proficient: Angular Js, Terraform, Java, Python.</li>
+            </ul>
+        </div>
+
+        <div class="experience">
             <h2>Professional Experience</h2>
-            <p><strong>Epsilon</strong><br>
-                <em>Senior Software Engineer | July 2020 - August 2023</em><br>
-                - Designed and developed software solutions utilizing Java and full-stack technologies including AngularJS and Terraform.<br>
-                - Collaborated with cross-functional teams to gather requirements and define project scopes.<br>
-                - Participated in design discussions, contributing innovative ideas to enhance product features.
-            </p>
-            <p><em>Intern | January 2020 - June 2020</em><br>
-                - Assisted in the design and development of new software features.<br>
-                - Conducted thorough testing and debugging of code to ensure functionality and resolve issues.<br>
-                - Collaborated with team members to troubleshoot and resolve technical problems.<br>
-                - Contributed to the creation of technical documentation for new software features.
-            </p>
-        </section>
-        <section class="section">
+            <div>
+                <h3>Epsilon | Senior Software Engineer</h3>
+                <p>July 2020 - August 2023</p>
+                <ul>
+                    <li>Designed and developed software solutions for various projects, utilizing Java programming language. Full stack development and worked on projects using Angular Js and Terraform.</li>
+                    <li>Collaborated with cross-functional teams to gather requirements and define project scope.</li>
+                    <li>Participated in design discussions and contributed innovative ideas to improve product features.</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Epsilon | Intern</h3>
+                <p>January 2020 - June 2020</p>
+                <ul>
+                    <li>Assisted in the design and development of new software features.</li>
+                    <li>Conducted thorough testing and debugging of code to ensure functionality and identify any issues.</li>
+                    <li>Collaborated with team members to troubleshoot and resolve technical problems.</li>
+                    <li>Contributed to the creation of technical documentation for new software features.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="certifications">
             <h2>Certifications</h2>
-            <p>- Databricks Lakehouse Fundamentals<br>
-               - Deep Learning A-Z: Hands-On Artificial Neural Networks
-            </p>
-        </section>
-        <section class="section">
+            <ul>
+                <li>Databricks Lakehouse Fundamentals</li>
+                <li>Deep Learning A-Z: Hands-On Artificial Neural Networks</li>
+            </ul>
+        </div>
+
+        <div class="projects">
             <h2>Projects</h2>
-            <p>- Turtle Beach Zoo Database Management Project | <a href="https://github.com/TurtlebackZoo" target="_blank">Git: TurtlebackZoo</a><br>
-               - Machine Learning and Data Visualization Projects | <a href="https://github.com/MachineLearningAndDataVisualization" target="_blank">Git: MachineLearningAndDataVisualization</a>
-            </p>
-        </section>
-        <section class="section">
-            <h2>Additional Qualities</h2>
-            <p>- Strong written and oral communication skills.<br>
-               - Detail-oriented, with the ability to multitask and prioritize effectively.<br>
-               - Willing to relocate and adapt to new environments.
-            </p>
-        </section>
-       
+            <ul>
+                <li>Turtle Beach Zoo Database Management Project. Git: <a class="project-link" href="https://github.com/AnthonyBarrera116/DATA-Manage">TurtlebackZoo</a></li>
+                <li>Machine Learning and Data Visualization Projects: <a class="project-link" href="https://github.com/mayura02/MachineLearningAndDataVisualization">MachineLearningAndDataVisualization</a></li>
+            </ul>
+        </div>
     </div>
 </body>
 </html>
